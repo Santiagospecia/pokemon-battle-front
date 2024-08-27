@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+Instructivo del Proyecto: Batalla de Pokémon
+¿
+La Batalla de Pokémon es una aplicación web que permite a los usuarios seleccionar un Pokémon y enfrentarlo en una batalla contra otro Pokémon seleccionado aleatoriamente. La aplicación simula una batalla por turnos en la que los Pokémon atacan y defienden según sus estadísticas, y el ganador es determinado cuando el HP de uno de los Pokémon llega a cero.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Características Principales:
+Frontend: Construido con React y Material-UI, el frontend permite a los usuarios seleccionar un Pokémon, iniciar una batalla, y ver el resultado.
 
-## Available Scripts
+1. Clonar el repositorio 
+    git clone https://github.com/Santiagospecia/pokemon-battle-front.git
 
-In the project directory, you can run:
+2. Navegar al directorio
+    cd ./pokemon-battle-front
+    
+3. Instalar Dependencias
+    npm install
 
-### `npm start`
+4. Ejecutar el Frontend
+    npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Uso de la Aplicación
 
-### `npm test`
+Seleccionar un Pokémon:
+En la interfaz, verás una lista de Pokémon disponibles. Haz clic en uno para seleccionarlo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Iniciar Batalla:
+Después de seleccionar un Pokémon, aparecerá un botón Start Battle. Al hacer clic en él, se seleccionará un oponente aleatorio, y la batalla comenzará.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ver el Resultado:
+El resultado de la batalla se mostrará encima de las tarjetas de Pokémon. Puedes reiniciar la batalla seleccionando otro Pokémon o haciendo clic en Start Battle nuevamente.
