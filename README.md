@@ -1,5 +1,5 @@
 Instructivo del Proyecto: Batalla de Pokémon
-¿
+
 La Batalla de Pokémon es una aplicación web que permite a los usuarios seleccionar un Pokémon y enfrentarlo en una batalla contra otro Pokémon seleccionado aleatoriamente. La aplicación simula una batalla por turnos en la que los Pokémon atacan y defienden según sus estadísticas, y el ganador es determinado cuando el HP de uno de los Pokémon llega a cero.
 
 Características Principales:
